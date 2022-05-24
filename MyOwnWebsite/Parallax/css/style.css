@@ -1,0 +1,71 @@
+*,*::before,*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.parallax {
+    position: relative;
+    height: 100%;
+}
+.parallax-item {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.parallax-bg {
+    background: url("../img/space.jpg") 0 0 / cover no-repeat;
+}
+.parallax-earth {
+    background: url("../img/earth.png") bottom right / 45% no-repeat;
+    z-index: 2;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+}
+.content-body {
+    position: relative;
+    margin: 0 auto;
+    height: 2000px;
+}
+.content-header {
+    position: fixed;
+    left: 40%;
+    top: 30%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+.content-title {
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 1px -1px 10px #000;
+}
