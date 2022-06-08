@@ -1501,9 +1501,9 @@ footer {
 
 }
 
-@media (min-width: 1550px) {
+@media (min-width: 1580px) {
   .text {
-    font-size: 1.25em;
+    font-size: 1em;
     line-height: 2;
   }
 
@@ -1519,7 +1519,7 @@ footer {
     background-color: #0b1117;
     padding: 10px 30px;
     color: #fff;
-    font-size: 1.25em;
+    font-size: 1em;
     line-height: 2;
     font-weight: 600;
     border-radius: 4px;
@@ -1530,6 +1530,136 @@ footer {
   .section-header {
     font-weight: 300;
     font-size: 2em;
+    line-height: 130%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+  .third-header {
+    font-weight: 100;
+    font-size: 1.5em;
+    line-height: 130%;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  /* nav */
+
+  .navbar-scrolled {
+    display: block;
+    padding: 30px 20px;
+    text-align: center;
+    flex-direction: column;
+    width: 18%;
+    z-index: 500;
+    position: fixed;
+    top: 10%;
+    left: 5%;
+    animation-name: fadeInUp;
+    animation-duration: 1s
+  }
+
+  .panel-item {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1em;
+    color: #787878;
+  }
+
+  .header-link {
+    display: inline-block;
+    padding: 25px 0;
+    border-bottom: 1px solid rgb(224, 224, 224);
+  }
+
+  .nav-link-contacts {
+    border-bottom: none;
+  }
+
+  .personal-data {
+    font-size: 1.35em;
+  }
+
+  .foto-wrapper {
+    max-width: 220px;
+  }
+
+  .foto {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
+  }
+
+  .article-image-wrapper{
+    min-width: 25%;
+    min-height: 230px;
+    position: relative;
+  }
+
+
+  .slider-item-wrapper {
+    position: relative;
+    width: 800px;
+    min-height: 345px;
+  }
+
+  .slider .slick-arrow.slick-prev {
+    left: 65px;
+  }
+
+  .slider .slick-arrow.slick-next {
+    right: 65px;
+  }
+
+
+  .contacts-item {
+    min-width: 45%;
+    margin-bottom: 40px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .link-contacts {
+    font-size: 1.25em;
+    line-height: 1.6em;
+    padding-left: 45px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+  }
+}
+
+@media (min-width: 1800px) {
+  .text {
+    font-size: 1.25em;
+    line-height: 2;
+  }
+
+  .hero-title {
+    font-size: 3em;
+  }
+
+  .hero-descr {
+    margin-bottom: 25px;
+  }
+
+  .btn-get-started {
+    background-color: #0b1117;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 1.25em;
+    line-height: 2;
+    font-weight: 600;
+    border-radius: 6px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .section-header {
+    font-weight: 300;
+    font-size: 2.5em;
     line-height: 130%;
     margin-bottom: 40px;
     text-align: center;
@@ -1562,7 +1692,7 @@ footer {
   .panel-item {
     margin: 0;
     font-weight: bold;
-    font-size: 1.25em;
+    font-size: 1.35em;
     color: #787878;
   }
 
@@ -1572,8 +1702,16 @@ footer {
     border-bottom: 1px solid rgb(224, 224, 224);
   }
 
+  .nav-link-contacts {
+    border-bottom: none;
+  }
+
+  .personal-data {
+    font-size: 1.35em;
+  }
+
   .foto-wrapper {
-    max-width: 250px;
+    max-width: 275px;
   }
 
   .foto {
@@ -1589,21 +1727,31 @@ footer {
     position: relative;
   }
 
-
   .slider-item-wrapper {
     position: relative;
-    width: 800px;
-    min-height: 345px;
+    width: 1000px;
+    min-height: 400px;
   }
 
   .slider .slick-arrow.slick-prev {
-    left: 100px;
+    left: 65px;
   }
 
   .slider .slick-arrow.slick-next {
-    right: 100px;
+    right: 65px;
   }
 
+  .slider .slick-dots li button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 50%;
+  }
+
+  .contacts {
+    margin-top: 70px;
+  }
 
   .contacts-item {
     min-width: 45%;
@@ -1615,134 +1763,6 @@ footer {
 
   .link-contacts {
     font-size: 1.25em;
-    line-height: 1.6em;
-    padding-left: 45px;
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size: contain;
-  }
-}
-
-@media (min-width: 1920px) {
-  .text {
-    font-size: 2em;
-    line-height: 2;
-  }
-
-  .hero-title {
-    font-size: 4em;
-  }
-
-  .hero-descr {
-    margin-bottom: 25px;
-  }
-
-  .btn-get-started {
-    background-color: #0b1117;
-    padding: 15px 35px;
-    color: #fff;
-    font-size: 2em;
-    line-height: 2;
-    font-weight: 600;
-    border-radius: 6px;
-    text-transform: uppercase;
-    cursor: pointer;
-  }
-
-  .section-header {
-    font-weight: 300;
-    font-size: 4em;
-    line-height: 130%;
-    margin-bottom: 40px;
-    text-align: center;
-}
-
-  .third-header {
-    font-weight: 100;
-    font-size: 3em;
-    line-height: 130%;
-    margin-bottom: 24px;
-    text-align: center;
-  }
-
-  /* nav */
-
-  .navbar-scrolled {
-    display: block;
-    padding: 75px 30px;
-    text-align: center;
-    flex-direction: column;
-    width: 18%;
-    z-index: 500;
-    position: fixed;
-    top: 10%;
-    left: 5%;
-    animation-name: fadeInUp;
-    animation-duration: 1s
-  }
-
-  .panel-item {
-    margin: 0;
-    font-weight: bold;
-    font-size: 2em;
-    color: #787878;
-  }
-
-  .header-link {
-    display: inline-block;
-    padding: 40px 0;
-    border-bottom: 1px solid rgb(224, 224, 224);
-  }
-
-  .foto-wrapper {
-    max-width: 460px;
-  }
-
-  .foto {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
-  }
-
-  .article-image-wrapper{
-    min-width: 25%;
-    min-height: 360px;
-    position: relative;
-  }
-
-  .slider-item-wrapper {
-    position: relative;
-    width: 1000px;
-    min-height: 400px;
-  }
-
-  .slider .slick-arrow.slick-prev {
-    left: 150px;
-  }
-
-  .slider .slick-arrow.slick-next {
-    right: 150px;
-  }
-
-  .slider .slick-dots li button {
-    font-size: 0;
-    width: 20px;
-    height: 20px;
-    background-color: #000;
-    border-radius: 50%;
-  }
-
-  .contacts-item {
-    min-width: 45%;
-    margin-bottom: 40px;
-    margin-right: 10px;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .link-contacts {
-    font-size: 1.5em;
     line-height: 2em;
     padding-left: 55px;
     background-repeat: no-repeat;
