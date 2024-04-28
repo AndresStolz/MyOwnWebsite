@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title>My own website</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <section id="section-hero" class="section section-hero">
+      <div class="overlay"></div>
+      <div class="hero-content flex">
+        <h1 class="hero-title">
+          Let me care of your layout
+        </h1>
+
+        <p class="hero-descr text">
+          My name is Andrey, and I specialize in Web Layout
+        </p>
+
+        <button class="button btn-get-started text-glow">
+          <a href="#section-about-me" class="hero-link">
+            Get started
+          </a>
+        </button>
+      </div>
+    </section>
+  </header>
+
+
+  <div class="container">
+
+    <nav class="header-menu">
+      <div class="header-burger">
+        <span></span>
+      </div>
+
+      <ul id="navbar" class="list-reset navigation-panel flex-wrapper-Y">
+        <li class="panel-item">
+          <a href="#section-hero" class="header-link nav-link-home text-glow-black">
+            Home
+          </a>
+        </li>
+        <li class="panel-item">
+          <a href="#section-about-me" class="header-link nav-link-about-me text-glow-black">
+            About Me
+          </a>
+        </li>
+        <li class="panel-item">
+          <a href="#section-education" class="header-link nav-link-education text-glow-black">
+            Education
+          </a>
+        </li>
+        <li class="panel-item">
+          <a href="#section-work-experience" class="header-link nav-link-experience text-glow-black">
+            Work Experience
+          </a>
+        </li>
+        <li class="panel-item">
+          <a href="#section-skills" class="header-link nav-link-skills text-glow-black">
+            Skills
+          </a>
+        </li>
+        <li class="panel-item">
+          <a href="#section-projects" class="header-link  nav-link-projects text-glow-black">
+            Projects
+          </a>
+        </li>
+        <li class="panel-item">
+          <a href="#section-contacts" class="header-link nav-link-contacts text-glow-black">
+            Contacts
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+
+
+    <div class="main-content flex-wrapper-Y">
+
+      <section id="section-about-me" class="section section-about-me">
+        <h2 class="section-header">About Me</h2>
+        <h3 class="third-header">Principies</h3>
+        <div class="working-principies text">
+          <p>The markup must be semantically correct</p>
+          <p>BEM methodology is good practice</p>
+          <p>It is necessary to use validator</p>
+          <p>And it also needs to be adaptive so the website could be safely displayed on the different types of
+            devices</p>
+        </div>
+        <div class="section-description">
+
+          <div class="flex-wrapper-X">
+
+            <ul class="list-reset list-personal flex-wrapper-Y">
+              <li>
+                <p class="text personal-data">
+                  <span class="personal-item">Name: </span> Andrey Butuzov
+                </p>
+              </li>
+              <li>
+                <p class="text personal-data">
+                  <span class="personal-item">Age: </span>22
+                </p>
+              </li>
+              <li>
+                <p class="text personal-data">
+                  <span class="personal-item">Address: </span>Saransk, Russia
+                </p>
+              </li>
+              <li>
+                <p class="text personal-data text-glow-black">
+                  <span class="personal-item">Gmail: </span>
+                  <a href="mailto:ichbinwiestolz@gmail.com" target="_blank">ichbinwiestolz@gmail.com</a>
+                </p>
+              </li>
+            </ul>
+
+            <div class="foto-wrapper">
+              <img class="foto" src="img/me.png" alt="Stolz">
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section id="section-education" class="section section-education">
+        <h2 class="section-header">Education</h2>
+        <h3 class="third-header">Bachelor's degree</h3>
+        <ul class="list-reset education-list flex-wrapper-Y">
+
+          <li class="education-item" style="margin-bottom: 30px;">
+            <article class="article flex-wrapper-X">
+              <div class="article-descr article-university">
+                <p class="text">
+                  In 2017, I started studying at the <span class="text-glow-black"><a href="https://mrsu.ru/"
+                      target="_blank">Ogarev Mordovia State University</a></span> at the Faculty of Mathematics and
+                  Information Technology. In the course of training, I gained knowledge about program lifecycle and
+                  databases and wrote some programs using SQL and PHP. Also
+                  during my practice I wrote a small application using Winforms and C#.
+                </p>
+              </div>
+            </article>
+          </li>
+          <li class="education-item">
+            <article class="article flex-wrapper-X">
+              <div class="article-descr article-skillbox">
+                <p class="text">
+                  At the same time, I started training on the <span class="text-glow-black"><a
+                      href="https://skillbox.ru/" target="_blank">Skillbox</a></span> digital platform. This platform is
+                  one of the
+                  leaders at the field of Russian online education. This platform offers high-quality education in the
+                  whole
+                  field of IT. For myself, I chose a course of web layout. Now I can make a layout according to the
+                  customer's requirements using HTML5, CSS and JS. I also have some skills of working with Figma and
+                  Git.
+                </p>
+              </div>
+            </article>
+          </li>
+        </ul>
+
+      </section>
+
+      <section id="section-work-experience" class="section section-work-experience">
+
+        <h2 class="section-header">Work Experience</h2>
+        <h3 class="third-header">About one year of development</h3>
+          <article class="article-descr article-rosatom">
+            <p class="text">
+              At the end of my third year at the university, I was sent for an internship to <span
+                class="text-glow-black"><a href="https://greenatom.ru/" target="_blank">Greenatom</a></span>, which is
+              one of the subsidiaries of <span class="text-glow-black"><a href="https://www.rosatom.ru/en/index.html"
+                  target="_blank">Rosatom Corporation</a></span>. Mainly, this company produces software for
+              accounting of economic activity. After my internship I got a job, and, at the same time, a huge
+              responsibility.
+
+              I was working on creating a system, that gives a complete vision of material transporting
+              between companies.
+
+              The main task was to provide a data exchange between systems, that were used at those companies (
+              integration). I had to do that, using the client-service arcitecture, that is fundamental
+              technology nowdays.
+
+              The data transporting was provided in XML format, from the system-initiator to a server and from
+              server to system-addressat.
+              The second one has its own mobile version, and also I was working on its design.
+            </p>
+          </article>
+  
+      </section>
+
+      <section id="section-skills" class="section section-skills">
+
+        <h2 class="section-header">Skills</h2>
+
+
+        <ul class="list-reset skills-list flex-wrapper-X text">
+          <li class="skill-list-item industry-knowledge">
+            <h3>Industry Knowledge</h3>
+            <p>Programming</p>
+            <p>Web Technologies</p>
+            <p>Program Development</p>
+            <p>Software Development</p>
+            <p>Front-End Development</p>
+          </li>
+          <li class="skill-list-item tools-technologies">
+            <h3>Tools & Technologies</h3>
+            <p>HTML5</p>
+            <p>Cascading Style Sheets (CSS)</p>
+            <p>CSS Flexbox</p>
+            <p>CSS Grid Layout</p>
+            <p>JS</p>
+            <p>Git</p>
+            <p>GitHub</p>
+            <p>PHP</p>
+            <p>SQL</p>
+          </li>
+          <li class="skill-list-item languages">
+            <h3>Languages</h3>
+            <p>Russian</p>
+            <p>English</p>
+            <p>Spanish</p>
+          </li>
+          <li class="skill-list-item current-activity">
+            <h3>Current-activity</h3>
+            <p>Improving skills</p>
+            <p>(JS & React mainly)</p>
+          </li>
+          <li class="skill-list-item interests">
+            <h3>Interests</h3>
+            <p>Web Layout</p>
+            <p>Web Sequrity</p>
+          </li>
+
+        </ul>
+
+
+
+      </section>
+
+      <section id="section-projects" class="section section-projects">
+        <h2 class="section-header">Projects</h2>
+
+        <div class="flex-wrapper-X slider-wrapper">
+          <div class="slider">
+
+            <div class="slider-item flex-wrapper-X">
+              <div class="slider-item-wrapper flex-wrapper-X">
+                <img src="img/hero-bg.jpg" alt="">
+                <div class="slider-description text site-descr">
+                  <h3>My own website</h3>
+                  <p style="color:green;">(fully adaptive)</p>
+                  <p>You are there</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="slider-item flex-wrapper-X">
+              <div class="slider-item-wrapper flex-wrapper-X">
+                <img src="img/vrprev.webp" alt="">
+                <div class="slider-description text game-descr">
+                  <p style="color: rgb(255, 0, 0);">(desktop only)</p>
+                </div>
+                <a class="link-for-try-game text-glow" target="_blank" href="https://andresstolz.github.io/VRNas/">TRY IT</a>
+              </div>
+            </div>
+
+            <div class="slider-item flex-wrapper-X">
+              <div class="slider-item-wrapper flex-wrapper-X">
+                <img src="img/editor.png" alt="">
+                <div class="slider-description text editor-descr">
+                  <p>Table editor...</p>
+                </div>
+                <a class="link-for-try-editor text-glow" target="_blank" href="Editor/index.html">TRY IT</a>
+              </div>
+            </div>
+
+            <div class="slider-item flex-wrapper-X">
+              <div class="slider-item-wrapper flex-wrapper-X">
+                <img src="img/yagoprev.webp" alt="">
+                <div class="slider-description parallax-descr">
+                  <p style="color: rgb(255, 0, 0);">(desktop only)</p>
+                </div>
+                <a class="link-for-try-parallax text-glow" target="_blank" href="https://andresstolz.github.io/YandexGO_desktop/">TRY IT</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+      </section>
+
+      <footer>
+        <section id="section-contacts" class="section section-contacts">
+          <div class="section-container container-contacts">
+            <h2 class="section-header">Contacts</h2>
+            <h3 class="third-header">Choose something to chat with me</h3>
+
+
+            <ul class="list-reset contacts flex">
+              <li class="contacts-item flex">
+                <a href="mailto:ichbinwiestolz@gmail.com" target="_blank" class="link-contacts link-mail">Gmail</a>
+              </li>
+              <li class="contacts-item flex">
+                <a href="https://wa.me/79271755070" target="_blank" class="link-contacts link-whatsapp">WhatsApp</a>
+              </li>
+              <li class="contacts-item flex">
+                <a href="https://t.me/Swebazel" target="_blank" class="link-contacts link-telegram">Telegram</a>
+              </li>
+              <li class="contacts-item flex">
+                <a href="skype:vurm290100" target="_blank" class="link-contacts link-skype">Skype</a>
+              </li>
+              <li class="contacts-item flex">
+                <a href="https://twitter.com/StolzAndres" target="_blank" class="link-contacts link-twitter">Twitter</a>
+              </li>
+              <li class="contacts-item flex">
+                <a href="https://www.facebook.com/profile.php?id=100075705249105" target="_blank"
+                  class="link-contacts link-facebook">Facebook</a>
+              </li>
+            </ul>
+
+          </div>
+        </section>
+      </footer>
+    </div>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
